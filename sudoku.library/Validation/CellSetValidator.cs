@@ -2,7 +2,7 @@ using System.Linq;
 
 namespace Sudoku.Library.Validation
 {
-    public class CellSetValidator
+    public class CellSetValidator : ICellSetValidator
     {
         public bool IsValid(CellSet cellSet)
         {
